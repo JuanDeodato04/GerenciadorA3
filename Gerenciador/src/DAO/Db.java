@@ -10,7 +10,7 @@ public class Db {
             Connection conn = null;
             
             try {
-                String url = "jdbc:mysql://localhost:3306/A3?user=root&password=Admin";
+                String url = "jdbc:mysql://localhost:3306/LOGIN_ELENCO?user=root&password=Admin";
                 conn = DriverManager.getConnection(url);
             } catch (SQLException e) {
                 JOptionPane.showMessageDialog(null, "Erro ConectBD: " + e.getMessage());
